@@ -1,0 +1,39 @@
+{
+  "name": "css-margin-percentages",
+  "style": "css-margin-percentages.css",
+  "version": "1.0.0",
+  "homepage": "http://github.com/mrmrs/css-margin-percentages",
+  "description": "Css module of single purpose classes for setting margin percentages",
+  "keywords": [
+    "css",
+    "oocss",
+    "postcss",
+    "margins"
+  ],
+  "css-margins": {
+    "type": "git",
+    "url": "http://github.com/mrmrs/css-margin-percentages.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mrmrs/css-margin-percentages/issues",
+    "email": "hi@mrmrs.cc"
+  },
+  "author": {
+    "name": "Adam Morse",
+    "email": "hi@mrmrs.cc",
+    "url": "http://mrmrs.cc"
+  },
+  "contributors": [
+    {
+      "name": "Adam Morse",
+      "email": "hi@mrmrs.cc"
+    }
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "tachyons-cli": "^0.3.2"
+  },
+  "scripts": {
+    "start": "tachyons src/css-margin-percentages.css > css/css-margin-percentages.css && tachyons src/css-margin-percentages.css --minify > css/css-margin-percentages.min.css && tachyons src/css-margin-percentages.css --generate-docs --package=../../package.json > readme.md"
+  }
+}
