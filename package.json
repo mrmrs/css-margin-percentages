@@ -1,7 +1,7 @@
 {
   "name": "css-margin-percentages",
   "style": "css-margin-percentages.css",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "homepage": "http://github.com/mrmrs/css-margin-percentages",
   "description": "Css module of single purpose classes for setting margin percentages",
   "keywords": [
