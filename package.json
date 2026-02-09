@@ -1,39 +1,44 @@
 {
   "name": "css-margin-percentages",
-  "style": "css-margin-percentages.css",
-  "version": "1.0.3",
-  "homepage": "http://github.com/mrmrs/css-margin-percentages",
-  "description": "Css module of single purpose classes for setting margin percentages",
+  "version": "2.0.0",
+  "description": "Functional CSS for margin-percentages",
+  "style": "dist/margin-percentages.css",
+  "main": "dist/margin-percentages.css",
+  "exports": {
+    ".": "./dist/margin-percentages.css",
+    "./dist/*": "./dist/*",
+    "./src/*": "./src/*"
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "build": "node build.js",
+    "prepublishOnly": "npm run build"
+  },
   "keywords": [
     "css",
-    "oocss",
-    "postcss",
-    "margins"
+    "margin-percentages",
+    "utility",
+    "single-purpose",
+    "functional-css"
   ],
-  "css-margins": {
+  "homepage": "https://github.com/mrmrs/css-margin-percentages",
+  "repository": {
     "type": "git",
-    "url": "http://github.com/mrmrs/css-margin-percentages.git"
+    "url": "https://github.com/mrmrs/css-margin-percentages.git"
   },
   "bugs": {
-    "url": "https://github.com/mrmrs/css-margin-percentages/issues",
-    "email": "hi@mrmrs.cc"
+    "url": "https://github.com/mrmrs/css-margin-percentages/issues"
   },
   "author": {
     "name": "Adam Morse",
     "email": "hi@mrmrs.cc",
     "url": "http://mrmrs.cc"
   },
-  "contributors": [
-    {
-      "name": "Adam Morse",
-      "email": "hi@mrmrs.cc"
-    }
-  ],
-  "license": "MIT",
+  "license": "ISC",
   "devDependencies": {
     "lightningcss": "^1"
-  },
-  "scripts": {
-    "build": "node build.js"
   }
 }
