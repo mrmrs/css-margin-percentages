@@ -34,5 +34,6 @@
     "lightningcss": "^1"
   },
   "scripts": {
+    "build": "node build.js"
   }
 }
