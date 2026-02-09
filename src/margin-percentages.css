@@ -422,7 +422,7 @@
 .ml-100 { margin-left: 100%; }
 
 
-@media screen and (min-width: 48em) {
+@media screen and (min-width: 32em) {
   .mt-01-s { margin-top: 1%; }
   .mt-02-s { margin-top: 2%; }
   .mt-03-s { margin-top: 3%; }
@@ -829,7 +829,7 @@
 
 }
 
-@media screen and (min-width:48em) and (max-width: 64em) {
+@media screen and (min-width:48em) {
   .mt-01-m { margin-top: 1%; }
   .mt-02-m { margin-top: 2%; }
   .mt-03-m { margin-top: 3%; }
@@ -1235,7 +1235,7 @@
   .ml-100-m { margin-left: 100%; }
 }
 
-@media screen and (min-width: 64em) {
+@media screen and (min-width: 96em) {
   .mt-01-l { margin-top: 1%; }
   .mt-02-l { margin-top: 2%; }
   .mt-03-l { margin-top: 3%; }
